@@ -1,0 +1,40 @@
+@import url(./media.css);
+
+/* Global */
+
+:root {
+  --primaryColor: red;
+  --secondaryColor: yellow;
+  --highlight: blue;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.3rem;
+}
+
+a {
+  color: var(--secondaryColor);
+}
+
+a:hover {
+  color: var(--highlight);
+}
+
+/* Main */
+
+main {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  width: 80%;
+  margin: auto;
+
+  p {
+    color: var(--highlight);
+  }
+}
